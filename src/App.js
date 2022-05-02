@@ -1,29 +1,22 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import './App.css';
-
-const Leaders = (props) => {
-  return(
-    <>
-      <h1>Name : {props.name}</h1>
-      <h2>Age : 20</h2>
-   </>
-  );
-}
 
 const App = () => {
 
 const [counter, setCounter] = useState(1);
-const name ={name:"isaac",age:20};
-const [timer,setTimer]= useState(1)
-  return (
+ 
+
+//the useEffect Hook actually is a function returning a Function and have to pass the second parameter empty array to work fine
+// and also we have the setCounter not just change the state directly with code
+useEffect(()=>{
+  alert('You changed the COunter to')
+},[counter]);
+
+return (
     <div className="App">
       <button onClick={()=>setCounter((prevCount)=>prevCount+1)}>+</button>
-      <h1>{counter}</h1>
+      <h1 onClick={() => alert("The Counter is Working Fine")}>{counter}</h1>
       <button onClick={()=>setCounter((prevCount)=>(prevCount)-1)}>-</button>
-      <button onClick={()=>setTimer((prevCount)=>(prevCount)+1)}>{timer}
-      </button>
-      <h1>Hai {name.name}</h1>
-      <Leaders name={name.name}/>
     </div>
   );
 }
