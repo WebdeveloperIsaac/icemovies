@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/icemovies/static/css/main.58e1373c.css",
+    "main.js": "/icemovies/static/js/main.321da3ad.js",
+    "index.html": "/icemovies/index.html",
+    "static/media/search.svg": "/icemovies/static/media/search.b416605642fcb3f2447edc96c1a80e05.svg",
+    "main.58e1373c.css.map": "/icemovies/static/css/main.58e1373c.css.map",
+    "main.321da3ad.js.map": "/icemovies/static/js/main.321da3ad.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.58e1373c.css",
+    "static/js/main.321da3ad.js"
+  ]
+}
