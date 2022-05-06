@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/icemovies/static/css/main.70867d1e.css",
-    "main.js": "/icemovies/static/js/main.ac28359d.js",
+    "main.js": "/icemovies/static/js/main.0dc702b7.js",
     "index.html": "/icemovies/index.html",
     "static/media/search.svg": "/icemovies/static/media/search.b416605642fcb3f2447edc96c1a80e05.svg",
     "main.70867d1e.css.map": "/icemovies/static/css/main.70867d1e.css.map",
-    "main.ac28359d.js.map": "/icemovies/static/js/main.ac28359d.js.map"
+    "main.0dc702b7.js.map": "/icemovies/static/js/main.0dc702b7.js.map"
   },
   "entrypoints": [
     "static/css/main.70867d1e.css",
-    "static/js/main.ac28359d.js"
+    "static/js/main.0dc702b7.js"
   ]
 }
