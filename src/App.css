@@ -26,6 +26,10 @@ body {
   flex-direction: column;
 }
 
+h2,h3{
+  color: aqua;
+}
+
 h1 {
   font-size: 3rem;
   letter-spacing: 0.9px;
